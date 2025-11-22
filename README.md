@@ -160,10 +160,8 @@ WhatsApp Opportunity:
     * Low-performing months: January recorded the lowest revenue at 130, with a slow trend continuing through mid-year, indicating limited engagement and conversion potential in the first half of the year.
 
 * Financial Overview
-   *Profit Margin: 69% – for every $1 spent, $0.69 is earned as profit.
-     * Insight:
-       * The campaigns demonstrate strong value for money, generating significant returns relative to cost.
-        * These profits could be reinvested into creating more engaging and targeted ads, expanding high-performing campaigns, and exploring new platforms to further increase reach, conversions, and revenue
+  * The campaigns demonstrate strong value for money, generating significant returns relative to cost.
+  * These profits could be reinvested into creating more engaging and targeted ads, expanding high-performing campaigns, and exploring new platforms to further increase reach, conversions, and revenue
 
 RECOMMENDATIONS
 * Allocate more budget to Facebook and Google Ads as they consistently deliver the highest revenue, profit, and conversions.
