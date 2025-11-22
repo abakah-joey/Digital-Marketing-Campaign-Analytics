@@ -121,7 +121,7 @@ METHODOLOGY
   * January recorded the lowest revenue at 130.
 
 
-* Strategic Platform Opportunity Analysis (YouTube & WhatsApp)
+* Strategic Platform Opportunity Analysis (YouTube and WhatsApp)
   * YouTube and WhatsApp collectively account for 4.3 billion monthly active users, yet they were not utilised in the campaign strategies.
   * Their massive user bases present untapped opportunities to increase visibility, engagement, and ultimately revenue and profit.
 
