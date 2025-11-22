@@ -10,11 +10,11 @@ PROBLEM STATEMENT
 TOOLS USED
  * MySQL, Excel, Power BI
 
-* DATA UNDERSTANDING
-  * The project uses three core tables:
-  a. campaigns – campaign details, objectives, budgets, and timelines
-  b. ad_performance – impressions, clicks, revenue, and cost
-  c. platforms – monthly active users and platform characteristics
+DATA UNDERSTANDING
+ * The project uses three core tables:
+   * campaigns – campaign details, objectives, budgets, and timelines
+   * ad_performance – impressions, clicks, revenue, and cost
+   * platforms – monthly active users and platform characteristics
 
   * Each table was designed with appropriate data types, keys, and constraints to ensure referential integrity and accurate analysis.
 
@@ -30,15 +30,15 @@ METHODOLOGY
 <img width="1558" height="929" alt="Screenshot 2025-11-22 193534" src="https://github.com/user-attachments/assets/b108fb54-9dc7-4457-9be5-e9462d000ea7" />
 
 * Schema Design
- * For each column, the following specifications were applied:
-   a. VARCHAR, INT, BIGINT for text and numeric values
-   b. AUTO_INCREMENT for unique ID sequencing
-   c. PRIMARY KEY for table-level uniqueness
-   d. FOREIGN KEY constraints to establish relationships
-   e. DATE for all timeline fields
-   f. DECIMAL for monetary values and rates
-   g. NOT NULL to maintain data completeness
-   h. Defined appropriate length limits for all fields
+  * For each column, the following specifications were applied:
+    * VARCHAR, INT, BIGINT for text and numeric values
+    * AUTO_INCREMENT for unique ID sequencing
+    * PRIMARY KEY for table-level uniqueness
+    * FOREIGN KEY constraints to establish relationships
+    * DATE for all timeline fields
+    * DECIMAL for monetary values and rates
+    * NOT NULL to maintain data completeness
+    * Defined appropriate length limits for all fields
 
    <img width="1541" height="768" alt="Screenshot 2025-11-22 193216" src="https://github.com/user-attachments/assets/52118db7-5923-4c51-b5ea-92503788ad37" />
 
@@ -64,24 +64,24 @@ METHODOLOGY
 
 * Visualization
   * An interactive dashboard was developed to:
-    a. Present platform performance using bar charts showing reach, revenue, and profit share across all major channels.
-    b. Reveal seasonal and monthly shifts in earnings through a line chart illustrating the revenue trend across the year.
-    c. Compare platform efficiency using a bubble chart mapping impressions against monthly active users.
+      * Present platform performance using bar charts showing reach, revenue, and profit share across all major channels.
+      * Reveal seasonal and monthly shifts in earnings through a line chart illustrating the revenue trend across the year.
+      * Compare platform efficiency using a bubble chart mapping impressions against monthly active users.
 
+    *  The dashboard uses a well-blended color scheme and includes slicers for easy filtering and dynamic exploration, maintaining a clean, spacious layout for quick insights.
+      
 <img width="1164" height="652" alt="Screenshot 2025-11-22 171655" src="https://github.com/user-attachments/assets/c0c78e47-027c-4424-8dc7-2902c3ab9821" />
 <img width="1162" height="653" alt="Screenshot 2025-11-22 162217" src="https://github.com/user-attachments/assets/6cc260ec-ac08-4da1-8bbe-56406efa7c27" />
 <img width="1162" height="652" alt="Screenshot 2025-11-22 163143" src="https://github.com/user-attachments/assets/b7ee11f1-36ef-4f13-a0b7-cacf4375537d" />
 
-   * The dashboard uses a well-blended color scheme and includes slicers for easy filtering and dynamic exploration, maintaining a clean, spacious layout for quick insights.
-
 * Analysis Approach
-  * A range of SQL queries and aggregate functions were applied to derive insights:
+   * A range of SQL queries and aggregate functions were applied to derive insights:
 
-  a. Joined campaigns and ad_performance to analyse performance by campaign.
-  b. Calculated click-through rate (CTR) using total clicks and impressions.
-  c. Performed revenue vs cost computations to evaluate profit contributions.
-  d. Identified the top 5 performing campaigns by revenue.
-  e. Compared platform visibility through total impressions.
+      * Joined campaigns and ad_performance to analyse performance by campaign.
+      * Calculated click-through rate (CTR) using total clicks and impressions.
+      * Performed revenue vs cost computations to evaluate profit contributions.
+      * Identified the top 5 performing campaigns by revenue.
+      * Compared platform visibility through total impressions.
 
 * Overall Performance Metrics
   * Total Impressions: 58.2K
@@ -138,8 +138,8 @@ WhatsApp Opportunity:
 * Since users open WhatsApp multiple times a day, the probability of repeated exposure is high, which can improve conversion rates.
 * WhatsApp’s personal, conversational nature also enhances trust and increases the chances of customer interaction, referrals, and organic sharing.
 
-* Implication:
- Leveraging YouTube and WhatsApp in future campaigns can significantly expand reach beyond the existing platforms and may lead to stronger brand awareness, higher conversions, and improved revenue performance.
+   * Implication:
+     * Leveraging YouTube and WhatsApp in future campaigns can significantly expand reach beyond the existing platforms and may lead to stronger brand awareness, higher conversions, and improved revenue performance.
 
 * Platform Visibility Insights
   * Facebook (26K impressions): Wide global reach across all age groups, making it a highly effective channel for brand awareness and campaign engagement.
@@ -151,7 +151,7 @@ WhatsApp Opportunity:
 * Top Performing Campaigns
   * Top 5 campaigns by revenue and profit: Campaign IDs 5 > 19 > 8 > 15 > 1
     * Platforms used: Facebook and Google Ads
-  * Insight: These campaigns demonstrate the effectiveness of combining high-reach platforms with strong ad strategies to maximise revenue and profit.
+      * Insight: These campaigns demonstrate the effectiveness of combining high-reach platforms with strong ad strategies to maximise revenue and profit.
 
 * Top Months by Revenue
   * Insights:
@@ -160,10 +160,10 @@ WhatsApp Opportunity:
     * Low-performing months: January recorded the lowest revenue at 130, with a slow trend continuing through mid-year, indicating limited engagement and conversion potential in the first half of the year.
 
 * Financial Overview
-  *Profit Margin: 69% – for every $1 spent, $0.69 is earned as profit.
-* Insight:
-  * The campaigns demonstrate strong value for money, generating significant returns relative to cost.
-  * These profits could be reinvested into creating more engaging and targeted ads, expanding high-performing campaigns, and exploring new platforms to further increase reach, conversions, and revenue
+   *Profit Margin: 69% – for every $1 spent, $0.69 is earned as profit.
+     * Insight:
+       * The campaigns demonstrate strong value for money, generating significant returns relative to cost.
+        * These profits could be reinvested into creating more engaging and targeted ads, expanding high-performing campaigns, and exploring new platforms to further increase reach, conversions, and revenue
 
 RECOMMENDATIONS
 * Allocate more budget to Facebook and Google Ads as they consistently deliver the highest revenue, profit, and conversions.
